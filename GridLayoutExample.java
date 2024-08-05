@@ -13,9 +13,12 @@ public class GridLayoutExample {
         frame.setBounds(0, 0, 1024, 900);
         innerPanel = new JPanel(new GridLayout(3, 3, 15, 15));
         innerPanel.setSize(new Dimension(300, 300));
+
+
         panel = new JPanel(new FlowLayout(FlowLayout.CENTER, ((frame.getWidth() - innerPanel.getWidth())/2), ((frame.getHeight() - innerPanel.getHeight())/2)));
         panel.setBackground(Color.yellow);
-        innerPanel.setBackground(Color.white);
+//        innerPanel.setBackground(Color.white);
+        innerPanel.setBackground(Color.yellow);
         innerPanel.setOpaque(true);
         innerPanel.add(new JButton("Btn 1"));
         innerPanel.add(new JButton("Btn 2"));

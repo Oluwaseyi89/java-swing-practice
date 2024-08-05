@@ -8,6 +8,9 @@ public class Main {
 //        new BorderLayoutExample();
 //        new GridLayoutExample();
 //        new GridbagLayoutExample();
-        new MigLayoutExample();
+//        new MigLayoutExample();
+//        new JMenuBarExample();
+//        new JComboButtonExample();
+        new JRadioButtonExample();
     }
 }
