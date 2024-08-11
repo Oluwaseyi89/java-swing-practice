@@ -11,6 +11,8 @@ public class Main {
 //        new MigLayoutExample();
 //        new JMenuBarExample();
 //        new JComboButtonExample();
-        new JRadioButtonExample();
+//        new JRadioButtonExample();
+//        new JCheckBoxExample();
+        new JOptionPaneExample();
     }
 }
